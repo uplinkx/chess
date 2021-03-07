@@ -6,7 +6,7 @@
 /*   By: home <home@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/13 22:05:38 by home              #+#    #+#             */
-/*   Updated: 2020/06/19 00:56:34 by home             ###   ########.fr       */
+/*   Updated: 2021/03/07 14:31:10 by home             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,6 @@
 
 # include <SDL2/SDL.h>
 # include <stdbool.h>
-
-typedef struct	s_display
-{
-	SDL_Window		*window;
-	SDL_Renderer	*renderer;
-}				t_display;
 
 typedef struct	s_game_state
 {

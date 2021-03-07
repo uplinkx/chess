@@ -1,24 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   window_config.h                                    :+:      :+:    :+:   */
+/*   moveset_queen.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: home <home@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/06/13 22:02:13 by home              #+#    #+#             */
-/*   Updated: 2020/06/18 22:12:06 by home             ###   ########.fr       */
+/*   Created: 2020/06/17 04:59:15 by home              #+#    #+#             */
+/*   Updated: 2021/03/07 14:34:26 by home             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef WINDOW_CONFIG_H
-# define WINDOW_CONFIG_H
+#include "main.h"
 
-# define WIN_TITLE "Chess"
-
-# define WIN_WIDTH  (512)
-# define WIN_HEIGHT (512)
-
-# define WIN_POS_X 2700
-# define WIN_POS_Y 100
-
-#endif
+void	toggle_queen_moveset(t_game_state *game_state)
+{
+	toggle_rook_moveset(game_state);
+	toggle_bishop_moveset(game_state);
+}

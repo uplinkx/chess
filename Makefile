@@ -17,14 +17,21 @@ SDLX_DIR = SDLX/
 SDLX_NAMES = 			\
 	SDLX_init			\
 
-FILE_NAMES =		\
+FILE_NAMES =			\
 	$(addprefix $(SDLX_DIR), $(SDLX_NAMES))		\
-	carve_texture	\
-	game_input		\
-	itow			\
-	main			\
-	render			\
-	update			\
+	moveset/moveset_bishop	\
+	moveset/moveset_horse	\
+	moveset/moveset_king	\
+	moveset/moveset_pawn	\
+	moveset/moveset_queen	\
+	moveset/moveset_rook	\
+	carve_chess_texture	\
+	main				\
+	render				\
+	setup				\
+	update_game_state	\
+	user_interface		\
+	utils				\
 
 SRC_FILES = $(addsuffix .c, $(addprefix srcs/, $(FILE_NAMES)))
 
