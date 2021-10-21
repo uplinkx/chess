@@ -187,7 +187,7 @@ var Module = typeof Module !== 'undefined' ? Module : {};
     }
   
    }
-   loadPackage({"files": [{"filename": "/resources/chess_texture.png", "start": 0, "end": 588, "audio": 0}], "remote_package_size": 588, "package_uuid": "47d7ba29-7c3d-42c1-bbd1-a4ec85f3722b"});
+   loadPackage({"files": [{"filename": "/resources/chess_texture.png", "start": 0, "end": 875, "audio": 0}], "remote_package_size": 875, "package_uuid": "35845f45-3c8a-46b0-b6b2-50914964b38d"});
   
   })();
   
